@@ -74,7 +74,7 @@ highlight:
   enable: false
 ```
 
-## Posts format
+### Posts format
 ##### Header's meta data
 ```yaml
 ---
@@ -94,6 +94,13 @@ version: 0.10
 	path = themes/hexo-cheatsheets
 	url = https://github.com/hsiangjenli/hexo-cheatsheets
 ```
+
+##### Note
+```markdown
+Pay attention to whether you have enabled the permission of GitHub Actions
+```
+![Image](https://i.imgur.com/EPz87q2.png)
+
 ### Github action
 ##### .github\workflows\pages.yml
 ```yaml
@@ -134,14 +141,7 @@ jobs:
           publish_dir: ./public
 ```
 
-```markdown
-Pay attention to whether you have enabled the permission of GitHub Actions
-```
-![Image](https://i.imgur.com/EPz87q2.png)
-
-
-
-## Reference
+### Reference
 1. [glazec/hexo-cheatsheets](https://github.com/glazec/hexo-cheatsheets)
 1. [Hexo Cheatsheets Theme](https://www.inevitable.tech/posts/59f1905d/)
 1. [rstacruz/cheatsheets](https://github.com/rstacruz/cheatsheets)
