@@ -87,7 +87,62 @@ version: 0.10
 ...
 ```
 
+### Auto deploy to github page
+##### .gitmodules
+```yaml
+[submodule "themes/hexo-cheatsheets"]
+	path = themes/hexo-cheatsheets
+	url = https://github.com/hsiangjenli/hexo-cheatsheets
+```
+### Github action
+##### .github\workflows\pages.yml
+```yaml
+name: Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+      - name: Use Node.js 17
+        uses: actions/setup-node@v2
+        with:
+          node-version: '17'
+      - name: Cache NPM dependencies
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+```
+
+```markdown
+Pay attention to whether you have enabled the permission of GitHub Actions
+```
+![Image](https://i.imgur.com/GHU3aqi.png)
+
+
+
 ## Reference
 1. [glazec/hexo-cheatsheets](https://github.com/glazec/hexo-cheatsheets)
 1. [Hexo Cheatsheets Theme](https://www.inevitable.tech/posts/59f1905d/)
 1. [rstacruz/cheatsheets](https://github.com/rstacruz/cheatsheets)
+1. [Managing GitHub Actions settings for a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository)
