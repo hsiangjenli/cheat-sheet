@@ -137,7 +137,7 @@ jobs:
 ```markdown
 Pay attention to whether you have enabled the permission of GitHub Actions
 ```
-![Image](https://i.imgur.com/GHU3aqi.png)
+![Image](https://i.imgur.com/EPz87q2.png)
 
 
 
