@@ -15,7 +15,7 @@ npm install make -g
 npm install -g sass
 ```
 ##### Creating an environment using Docker
-```yaml
+```dockerfile
 FROM node:17-alpine
 
 RUN npm install hexo-cli -g
