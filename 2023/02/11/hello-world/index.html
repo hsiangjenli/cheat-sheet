@@ -70,107 +70,103 @@
       data-js-anchors
       role="main"
     >
-      <div class="h1-section"><h1 id="H1-1-First-Heading-will-be-hidden"><a href="#H1-1-First-Heading-will-be-hidden" class="headerlink local-anchor anchor" title="H1-1(First Heading will be hidden)">#</a>H1-1(First Heading will be hidden)</h1><div class="code-section-list" data-isotope="{&quot;itemSelector&quot;:&quot;.h3-section&quot;,&quot;masonry&quot;:{&quot;horizontalOrder&quot;:true},&quot;transitionDuration&quot;:0}"><div class="h3-section"><h3 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h3><div class="body"><h5 id="Install-manually"><a href="#Install-manually" class="headerlink" title="Install manually"></a>Install manually</h5><pre><code class="bash">npm install hexo-cli -g
-npm install make -g
-npm install -g sass
-</code></pre>
-<h5 id="Creating-an-environment-using-Docker"><a href="#Creating-an-environment-using-Docker" class="headerlink" title="Creating an environment using Docker"></a>Creating an environment using Docker</h5><pre><code class="yaml">FROM node:17-alpine
+      <div class="h1-section"><h1 id="H1-1-First-Heading-will-be-hidden"><a href="#H1-1-First-Heading-will-be-hidden" class="headerlink local-anchor anchor" title="H1-1(First Heading will be hidden)">#</a>H1-1(First Heading will be hidden)</h1><div class="code-section-list" data-isotope="{&quot;itemSelector&quot;:&quot;.h3-section&quot;,&quot;masonry&quot;:{&quot;horizontalOrder&quot;:true},&quot;transitionDuration&quot;:0}"><div class="h3-section"><h3 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h3><div class="body"><h5 id="Install-manually"><a href="#Install-manually" class="headerlink" title="Install manually"></a>Install manually</h5><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-cli <span class="token parameter variable">-g</span>
+<span class="token function">npm</span> <span class="token function">install</span> <span class="token function">make</span> <span class="token parameter variable">-g</span>
+<span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">-g</span> sass<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h5 id="Creating-an-environment-using-Docker"><a href="#Creating-an-environment-using-Docker" class="headerlink" title="Creating an environment using Docker"></a>Creating an environment using Docker</h5><pre class="line-numbers language-docker" data-language="docker"><code class="language-docker"><span class="token instruction"><span class="token keyword">FROM</span> node:17-alpine</span>
 
-RUN npm install hexo-cli -g
-RUN npm install make -g
-RUN npm install -g sass
+<span class="token instruction"><span class="token keyword">RUN</span> npm install hexo-cli -g</span>
+<span class="token instruction"><span class="token keyword">RUN</span> npm install make -g</span>
+<span class="token instruction"><span class="token keyword">RUN</span> npm install -g sass</span>
 
-RUN set -x \
-    &amp;&amp; . /etc/os-release \
-    &amp;&amp; case &quot;$ID&quot; in \
-        alpine) \
-            apk add --no-cache bash git openssh \
-            ;; \
-        debian) \
-            apt-get update \
-            &amp;&amp; apt-get -yq install bash git openssh-server \
-            &amp;&amp; apt-get -yq clean \
-            &amp;&amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
-            ;; \
-    esac \
-    &amp;&amp; yarn bin || ( npm install --global yarn &amp;&amp; npm cache clean ) \
-    &amp;&amp; git --version &amp;&amp; bash --version &amp;&amp; ssh -V &amp;&amp; npm -v &amp;&amp; node -v &amp;&amp; yarn -v
-</code></pre>
-</div></div><div class="h3-section"><h3 id="Init-project"><a href="#Init-project" class="headerlink" title="Init project"></a>Init project</h3><div class="body"><h5 id="Currently-dir"><a href="#Currently-dir" class="headerlink" title="Currently dir"></a>Currently dir</h5><pre><code class="bash">hexo init .
-</code></pre>
-<h5 id="The-generated-project-structure"><a href="#The-generated-project-structure" class="headerlink" title="The generated project structure"></a>The generated project structure</h5><pre><code class="yaml">.
+<span class="token instruction"><span class="token keyword">RUN</span> set -x <span class="token operator">\</span>
+    &amp;&amp; . /etc/os-release <span class="token operator">\</span>
+    &amp;&amp; case <span class="token string">&quot;$ID&quot;</span> in <span class="token operator">\</span>
+        alpine) <span class="token operator">\</span>
+            apk add --no-cache bash git openssh <span class="token operator">\</span>
+            ;; <span class="token operator">\</span>
+        debian) <span class="token operator">\</span>
+            apt-get update <span class="token operator">\</span>
+            &amp;&amp; apt-get -yq install bash git openssh-server <span class="token operator">\</span>
+            &amp;&amp; apt-get -yq clean <span class="token operator">\</span>
+            &amp;&amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* <span class="token operator">\</span>
+            ;; <span class="token operator">\</span>
+    esac <span class="token operator">\</span>
+    &amp;&amp; yarn bin || ( npm install --global yarn &amp;&amp; npm cache clean ) <span class="token operator">\</span>
+    &amp;&amp; git --version &amp;&amp; bash --version &amp;&amp; ssh -V &amp;&amp; npm -v &amp;&amp; node -v &amp;&amp; yarn -v</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+</div></div><div class="h3-section"><h3 id="Init-project"><a href="#Init-project" class="headerlink" title="Init project"></a>Init project</h3><div class="body"><h5 id="Currently-dir"><a href="#Currently-dir" class="headerlink" title="Currently dir"></a>Currently dir</h5><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo init <span class="token builtin class-name">.</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h5 id="The-generated-project-structure"><a href="#The-generated-project-structure" class="headerlink" title="The generated project structure"></a>The generated project structure</h5><pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml">.
 &#x251C;&#x2500;&#x2500; Dockerfile
 &#x251C;&#x2500;&#x2500; Makefile
 &#x251C;&#x2500;&#x2500; README.md
 &#x251C;&#x2500;&#x2500; _config.yml
-&#x251C;&#x2500;&#x2500; compose-dev.yaml
+&#x251C;&#x2500;&#x2500; compose<span class="token punctuation">-</span>dev.yaml
 &#x251C;&#x2500;&#x2500; db.json
 &#x251C;&#x2500;&#x2500; node_modules
 &#x251C;&#x2500;&#x2500; package.json
 &#x251C;&#x2500;&#x2500; scaffolds
 &#x251C;&#x2500;&#x2500; source
 &#x251C;&#x2500;&#x2500; themes (You should put your theme in this folder)
-&#x2502;   &#x2514;&#x2500;&#x2500; hexo-cheatsheets
-&#x2514;&#x2500;&#x2500; yarn.lock
-</code></pre>
-<h5 id="cd-to-themes"><a href="#cd-to-themes" class="headerlink" title="cd to themes"></a>cd to <code>themes</code></h5><pre><code class="bash">cd themes
-git clone https://github.com/hsiangjenli/hexo-cheatsheets.git
-</code></pre>
-<h5 id="Modify-theme-setting-in-config-yml-to-hexo-cheatsheets"><a href="#Modify-theme-setting-in-config-yml-to-hexo-cheatsheets" class="headerlink" title="Modify theme setting in _config.yml to hexo-cheatsheets"></a>Modify <code>theme</code> setting in <code>_config.yml</code> to <code>hexo-cheatsheets</code></h5><h5 id="Disable-default-code-highlight-plugin-in-config-yml"><a href="#Disable-default-code-highlight-plugin-in-config-yml" class="headerlink" title="Disable default code highlight plugin in _config.yml"></a>Disable default code <code>highlight</code> plugin in <code>_config.yml</code></h5><pre><code class="yaml">highlight:
-  enable: false
-</code></pre>
-</div></div><div class="h3-section"><h3 id="Posts-format"><a href="#Posts-format" class="headerlink" title="Posts format"></a>Posts format</h3><div class="body"><h5 id="Header&#x2019;s-meta-data"><a href="#Header&#x2019;s-meta-data" class="headerlink" title="Header&#x2019;s meta data"></a>Header&#x2019;s meta data</h5><pre><code class="yaml">---
-title: Hello World
-date: 2023-02-11 
-tags: hello-world
-categories: hello-world
-version: 0.10
----
-...
-</code></pre>
-</div></div><div class="h3-section"><h3 id="Auto-deploy-to-github-page"><a href="#Auto-deploy-to-github-page" class="headerlink" title="Auto deploy to github page"></a>Auto deploy to github page</h3><div class="body"><h5 id="gitmodules"><a href="#gitmodules" class="headerlink" title=".gitmodules"></a>.gitmodules</h5><pre><code class="yaml">[submodule &quot;themes/hexo-cheatsheets&quot;]
-    path = themes/hexo-cheatsheets
-    url = https://github.com/hsiangjenli/hexo-cheatsheets
-</code></pre>
-<h5 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h5><pre><code class="markdown">Pay attention to whether you have enabled the permission of GitHub Actions
-</code></pre>
+&#x2502;   &#x2514;&#x2500;&#x2500; hexo<span class="token punctuation">-</span>cheatsheets
+&#x2514;&#x2500;&#x2500; yarn.lock<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="cd-to-themes"><a href="#cd-to-themes" class="headerlink" title="cd to themes"></a>cd to <code>themes</code></h5><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> themes
+<span class="token function">git</span> clone https://github.com/hsiangjenli/hexo-cheatsheets.git<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h5 id="Modify-theme-setting-in-config-yml-to-hexo-cheatsheets"><a href="#Modify-theme-setting-in-config-yml-to-hexo-cheatsheets" class="headerlink" title="Modify theme setting in _config.yml to hexo-cheatsheets"></a>Modify <code>theme</code> setting in <code>_config.yml</code> to <code>hexo-cheatsheets</code></h5><h5 id="Disable-default-code-highlight-plugin-in-config-yml"><a href="#Disable-default-code-highlight-plugin-in-config-yml" class="headerlink" title="Disable default code highlight plugin in _config.yml"></a>Disable default code <code>highlight</code> plugin in <code>_config.yml</code></h5><pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">highlight</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+</div></div><div class="h3-section"><h3 id="Posts-format"><a href="#Posts-format" class="headerlink" title="Posts format"></a>Posts format</h3><div class="body"><h5 id="Header&#x2019;s-meta-data"><a href="#Header&#x2019;s-meta-data" class="headerlink" title="Header&#x2019;s meta data"></a>Header&#x2019;s meta data</h5><pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">title</span><span class="token punctuation">:</span> Hello World
+<span class="token key atrule">date</span><span class="token punctuation">:</span> <span class="token datetime number">2023-02-11</span> 
+<span class="token key atrule">tags</span><span class="token punctuation">:</span> hello<span class="token punctuation">-</span>world
+<span class="token key atrule">categories</span><span class="token punctuation">:</span> hello<span class="token punctuation">-</span>world
+<span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token number">0.10</span>
+<span class="token punctuation">---</span>
+<span class="token punctuation">...</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+</div></div><div class="h3-section"><h3 id="Auto-deploy-to-github-page"><a href="#Auto-deploy-to-github-page" class="headerlink" title="Auto deploy to github page"></a>Auto deploy to github page</h3><div class="body"><h5 id="gitmodules"><a href="#gitmodules" class="headerlink" title=".gitmodules"></a>.gitmodules</h5><pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token punctuation">[</span>submodule &quot;themes/hexo<span class="token punctuation">-</span>cheatsheets&quot;<span class="token punctuation">]</span>
+	path = themes/hexo<span class="token punctuation">-</span>cheatsheets
+	url = https<span class="token punctuation">:</span>//github.com/hsiangjenli/hexo<span class="token punctuation">-</span>cheatsheets<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h5 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h5><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">Pay attention to whether you have enabled the permission of GitHub Actions<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p><img src="https://i.imgur.com/EPz87q2.png" alt="Image"></p>
-</div></div><div class="h3-section"><h3 id="Github-action"><a href="#Github-action" class="headerlink" title="Github action"></a>Github action</h3><div class="body"><h5 id="github-workflows-pages-yml"><a href="#github-workflows-pages-yml" class="headerlink" title=".github\workflows\pages.yml"></a>.github\workflows\pages.yml</h5><pre><code class="yaml">name: Pages
+</div></div><div class="h3-section"><h3 id="Github-action"><a href="#Github-action" class="headerlink" title="Github action"></a>Github action</h3><div class="body"><h5 id="github-workflows-pages-yml"><a href="#github-workflows-pages-yml" class="headerlink" title=".github\workflows\pages.yml"></a>.github\workflows\pages.yml</h5><pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Pages
 
-on:
-  push:
-    branches:
-      - master
+<span class="token key atrule">on</span><span class="token punctuation">:</span>
+  <span class="token key atrule">push</span><span class="token punctuation">:</span>
+    <span class="token key atrule">branches</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> master
 
-jobs:
-  pages:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          submodules: recursive
-      - name: Use Node.js 17
-        uses: actions/setup-node@v2
-        with:
-          node-version: &apos;17&apos;
-      - name: Cache NPM dependencies
-        uses: actions/cache@v2
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-npm-cache
-          restore-keys: |
-            ${{ runner.OS }}-npm-cache
-      - name: Install Dependencies
-        run: npm install
-      - name: Build
-        run: npm run build
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-</code></pre>
+<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
+  <span class="token key atrule">pages</span><span class="token punctuation">:</span>
+    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
+    <span class="token key atrule">steps</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@master
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">token</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.GITHUB_TOKEN <span class="token punctuation">}</span><span class="token punctuation">}</span>
+          <span class="token key atrule">submodules</span><span class="token punctuation">:</span> recursive
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Use Node.js 17
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>node@v2
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">node-version</span><span class="token punctuation">:</span> <span class="token string">&apos;17&apos;</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Cache NPM dependencies
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/cache@v2
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">path</span><span class="token punctuation">:</span> node_modules
+          <span class="token key atrule">key</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> runner.OS <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">-</span>npm<span class="token punctuation">-</span>cache
+          <span class="token key atrule">restore-keys</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
+            ${{ runner.OS }}-npm-cache</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Install Dependencies
+        <span class="token key atrule">run</span><span class="token punctuation">:</span> npm install
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Build
+        <span class="token key atrule">run</span><span class="token punctuation">:</span> npm run build
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> peaceiris/actions<span class="token punctuation">-</span>gh<span class="token punctuation">-</span>pages@v3
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">github_token</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.GITHUB_TOKEN <span class="token punctuation">}</span><span class="token punctuation">}</span>
+          <span class="token key atrule">publish_dir</span><span class="token punctuation">:</span> ./public<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 </div></div><div class="h3-section"><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><div class="body"><ol>
 <li><a target="_blank" rel="noopener" href="https://github.com/glazec/hexo-cheatsheets">glazec/hexo-cheatsheets</a></li>
 <li><a target="_blank" rel="noopener" href="https://www.inevitable.tech/posts/59f1905d/">Hexo Cheatsheets Theme</a></li>
