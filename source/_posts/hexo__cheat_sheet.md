@@ -1,8 +1,8 @@
 ---
-title: Hello World
+title: 'Creating a Static Website: Using the Hexo Cheatsheets Theme'
 date: 2023-02-11 
-tags: hello-world
-categories: hello-world
+tags: hexo, cheat-sheets
+categories: hexo
 version: 0.10
 ---
 
