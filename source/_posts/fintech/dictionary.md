@@ -39,3 +39,10 @@ version: personal note
 ## Open Banking _開放銀行_
 
 ## Financial Risk Management _金融風險管理_
+
+# Fintech 未來趨勢
+
+## CYBERSEC 2023
+1. [金融業雲端轉型三部曲之挑戰與突破](https://cyber.ithome.com.tw/2023/session-page/2027) [📄](https://s.itho.me/ccms_slides/2023/5/18/2a99f8a4-410e-439f-a5ae-00249104e3b1.pdf)
+1. [通往金融網路安全之事件反應和數位鑑識路徑](https://cyber.ithome.com.tw/2023/session-page/1802) [📄](https://s.itho.me/ccms_slides/2023/5/18/9dfdf0ec-e634-4836-864e-bbf2a64aec8e.pdf)
+1. [金流湧動 : 深入解析針對金融產業的 APT 攻擊事件](https://cyber.ithome.com.tw/2023/session-page/1899) [📄](https://s.itho.me/ccms_slides/2023/5/23/9a3fb20b-d24e-43b5-99da-80caa2d75c9f.pdf)
