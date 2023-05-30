@@ -40,6 +40,12 @@ version: personal note
 
 ## Financial Risk Management _金融風險管理_
 
+## Principles for Responsible Banking (PRB) _聯合國責任銀行原則_
+
+## ESG _永續_
+1. 永續保險原則（PSI）
+1. ISO14067 保險碳足跡與減碳標籤
+
 # Fintech 未來趨勢
 
 ## CYBERSEC 2023
