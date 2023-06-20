@@ -42,13 +42,34 @@ version: personal note
 
 ## Principles for Responsible Banking (PRB) _聯合國責任銀行原則_
 
+
+## 產金分離
+1. [金管會檢視產金分離原則](https://money.udn.com/money/story/5613/6842476)
+1. [產金分離、金金分離傻傻分不清　一次讓你搞懂](https://www.phew.tw/article/cont/phewpoint/current/news/4033/201805244033)
+1. [產業與金融要怎麼分離？](https://view.ctee.com.tw/monetary/25127.html)
+> 一、金控或銀行董事長和總經理不能擔任非金融事業的董總  
+> 二、金控或銀行對單一事業投資比例限5%  
+> 三、握有金控或銀行10%的大股東需經過適格性審查，這也包括產金分離  
+
 ## ESG _永續_
 1. 永續保險原則（PSI）
 1. ISO14067 保險碳足跡與減碳標籤
+1. [綠色金融行動方案3.0](https://www.fsc.gov.tw/ch/home.jsp?id=96&parentpath=0,2&mcustomize=news_view.jsp&dataserno=202209260001&dtable=News)
 
 # Fintech 未來趨勢
+
+## 金融資安人才
+1. [2021-金融資安人才地圖](https://www.fsc.gov.tw/websitedowndoc?file=chfsc/202107081856200.pdf&filedisplay=%E6%AA%94%E6%A1%887_%E9%87%91%E8%9E%8D%E8%B3%87%E5%AE%89%E4%BA%BA%E6%89%8D%E8%81%B7%E8%83%BD%E5%9C%B0%E5%9C%96(110%E5%B9%B47%E6%9C%88%E7%89%88).pdf)
 
 ## CYBERSEC 2023
 1. [金融業雲端轉型三部曲之挑戰與突破](https://cyber.ithome.com.tw/2023/session-page/2027) [📄](https://s.itho.me/ccms_slides/2023/5/18/2a99f8a4-410e-439f-a5ae-00249104e3b1.pdf)
 1. [通往金融網路安全之事件反應和數位鑑識路徑](https://cyber.ithome.com.tw/2023/session-page/1802) [📄](https://s.itho.me/ccms_slides/2023/5/18/9dfdf0ec-e634-4836-864e-bbf2a64aec8e.pdf)
 1. [金流湧動 : 深入解析針對金融產業的 APT 攻擊事件](https://cyber.ithome.com.tw/2023/session-page/1899) [📄](https://s.itho.me/ccms_slides/2023/5/23/9a3fb20b-d24e-43b5-99da-80caa2d75c9f.pdf)
+
+# 台灣金融業
+
+## 金管會
+1. [金融競爭力重要資訊](https://www.fsc.gov.tw/ch/home.jsp?id=146&websitelink=artwebsite.jsp&parentpath=0,8)
+
+## 個案探討
+1. [台新、新光合併有譜？吳東亮鬆口談兩大條件](https://www.gvm.com.tw/article/103619?utm_campaign=daily&utm_content=gv_post&utm_medium=social&utm_source=facebook&fbclid=IwAR2J-Jq1P4ma5YXXHbk0yZVEuY-AwjL27KRgdDjZGYLMLUkXbpXsyJ7jPQ4)
