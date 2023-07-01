@@ -53,9 +53,11 @@ version: personal note
 
 ## ESG _永續_
 1. 永續保險原則（PSI）
-1. ISO14067 保險碳足跡與減碳標籤
+1. ISO14067 
+   - 保險碳足跡與減碳標籤
+   - 信用卡及簽帳金融卡
 1. [綠色金融行動方案3.0](https://www.fsc.gov.tw/ch/home.jsp?id=96&parentpath=0,2&mcustomize=news_view.jsp&dataserno=202209260001&dtable=News)
-
+1. [永續發展債券](https://www.tpex.org.tw/web/bond/sustainability/institution.php?l=zh-tw)
 # Fintech 未來趨勢
 
 ## 金融資安人才
