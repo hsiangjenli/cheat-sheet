@@ -76,3 +76,4 @@ version: personal note
 
 ## 個案探討
 1. [台新、新光合併有譜？吳東亮鬆口談兩大條件](https://www.gvm.com.tw/article/103619?utm_campaign=daily&utm_content=gv_post&utm_medium=social&utm_source=facebook&fbclid=IwAR2J-Jq1P4ma5YXXHbk0yZVEuY-AwjL27KRgdDjZGYLMLUkXbpXsyJ7jPQ4)
+1. [台韓金融科技創新論壇KORFIN x TFTA _20230718 - Google Drive](https://drive.google.com/drive/folders/14-BEbgOuHe5edlPBmd_JWFB0gq9F17Gu?fbclid=IwAR0R2bxnhCT8nq8wTjY3VleFB7Zo6NIsQhUQDHx1eln5h2Ts5uWIWVZ85-w)
