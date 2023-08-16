@@ -1,8 +1,8 @@
 ---
 title: FinTech dictionary
 date: 2023-02-17
-tags: Fintech
-categories: Fintech
+tags: fintech
+categories: fintech
 version: personal note
 ---
 # FinTech dictionary
@@ -68,6 +68,12 @@ version: personal note
 1. [金融業雲端轉型三部曲之挑戰與突破](https://cyber.ithome.com.tw/2023/session-page/2027) [📄](https://s.itho.me/ccms_slides/2023/5/18/2a99f8a4-410e-439f-a5ae-00249104e3b1.pdf)
 1. [通往金融網路安全之事件反應和數位鑑識路徑](https://cyber.ithome.com.tw/2023/session-page/1802) [📄](https://s.itho.me/ccms_slides/2023/5/18/9dfdf0ec-e634-4836-864e-bbf2a64aec8e.pdf)
 1. [金流湧動 : 深入解析針對金融產業的 APT 攻擊事件](https://cyber.ithome.com.tw/2023/session-page/1899) [📄](https://s.itho.me/ccms_slides/2023/5/23/9a3fb20b-d24e-43b5-99da-80caa2d75c9f.pdf)
+
+## 金融科技發展路徑圖(2.0)
+1. [金融科技發展路徑圖(2.0)](https://www.fsc.gov.tw/uploaddowndoc?file=news/202308151434570.pdf&filedisplay=%E9%99%84%E4%BB%B61-%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80%E7%99%BC%E5%B1%95%E8%B7%AF%E5%BE%91%E5%9C%96%282.0%29.pdf&flag=doc)
+1. [具體推動事項列表(2.0)](https://www.fsc.gov.tw/uploaddowndoc?file=news/202308151434571.pdf&filedisplay=%E9%99%84%E4%BB%B62-2.0%E5%85%B7%E9%AB%94%E6%8E%A8%E5%8B%95%E4%BA%8B%E9%A0%85%E5%88%97%E8%A1%A8%282.0%29.pdf&flag=doc)
+1. [路徑圖(2.0)簡報](https://www.fsc.gov.tw/uploaddowndoc?file=news/202308151434572.pdf&filedisplay=%E9%99%84%E4%BB%B63-%E8%B7%AF%E5%BE%91%E5%9C%96%282.0%29%E7%B0%A1%E5%A0%B1.pdf&flag=doc)
+1. [路徑圖(2.0)懶人包](https://www.fsc.gov.tw/uploaddowndoc?file=news/202308151435090.pdf&filedisplay=%E9%99%84%E4%BB%B64-%E8%B7%AF%E5%BE%91%E5%9C%96%282.0%29%E6%87%B6%E4%BA%BA%E5%8C%85.pdf&flag=doc)
 
 # 台灣金融業
 
