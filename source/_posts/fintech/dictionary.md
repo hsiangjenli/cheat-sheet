@@ -52,6 +52,7 @@ version: personal note
 > 三、握有金控或銀行10%的大股東需經過適格性審查，這也包括產金分離  
 
 ## ESG _永續_
+
 1. 永續保險原則（PSI）
 1. 赤道原則協會
 1. ISO14067 
@@ -59,7 +60,17 @@ version: personal note
    - 信用卡及簽帳金融卡
 1. [綠色金融行動方案3.0](https://www.fsc.gov.tw/ch/home.jsp?id=96&parentpath=0,2&mcustomize=news_view.jsp&dataserno=202209260001&dtable=News)
 1. [永續發展債券](https://www.tpex.org.tw/web/bond/sustainability/institution.php?l=zh-tw)
+
 # Fintech 未來趨勢
+
+## 人工智慧
+1. [金融業運用人工智慧(AI)之核心原則與相關推動政策草案](https://www.fsc.gov.tw/uploaddowndoc?file=news/202308151432200.pdf&filedisplay=%E9%99%84%E4%BB%B6_%E9%87%91%E8%9E%8D%E6%A5%AD%E9%81%8B%E7%94%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%28AI%29%E4%B9%8B%E6%A0%B8%E5%BF%83%E5%8E%9F%E5%89%87%E8%88%87%E7%9B%B8%E9%97%9C%E6%8E%A8%E5%8B%95%E6%94%BF%E7%AD%96%28%E8%8D%89%E6%A1%88%29.pdf&flag=doc)
+
+## 區塊鏈
+##### 網路文章
+1. [BLOCK TEMPO](https://www.blocktempo.com)
+1. [區塊客(https://blockcast.it)
+1. [每日幣研](https://cryptowesearch.com)
 
 ## 金融資安人才
 1. [2021-金融資安人才地圖](https://www.fsc.gov.tw/websitedowndoc?file=chfsc/202107081856200.pdf&filedisplay=%E6%AA%94%E6%A1%887_%E9%87%91%E8%9E%8D%E8%B3%87%E5%AE%89%E4%BA%BA%E6%89%8D%E8%81%B7%E8%83%BD%E5%9C%B0%E5%9C%96(110%E5%B9%B47%E6%9C%88%E7%89%88).pdf)
@@ -83,3 +94,6 @@ version: personal note
 ## 個案探討
 1. [台新、新光合併有譜？吳東亮鬆口談兩大條件](https://www.gvm.com.tw/article/103619?utm_campaign=daily&utm_content=gv_post&utm_medium=social&utm_source=facebook&fbclid=IwAR2J-Jq1P4ma5YXXHbk0yZVEuY-AwjL27KRgdDjZGYLMLUkXbpXsyJ7jPQ4)
 1. [台韓金融科技創新論壇KORFIN x TFTA _20230718 - Google Drive](https://drive.google.com/drive/folders/14-BEbgOuHe5edlPBmd_JWFB0gq9F17Gu?fbclid=IwAR0R2bxnhCT8nq8wTjY3VleFB7Zo6NIsQhUQDHx1eln5h2Ts5uWIWVZ85-w)
+
+## 特殊組織
+1. 國際清算銀行 - 金融穩定學院(FSI)
