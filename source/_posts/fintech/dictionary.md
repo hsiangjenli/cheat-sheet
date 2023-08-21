@@ -69,7 +69,7 @@ version: personal note
 ## 區塊鏈
 ##### 網路文章
 1. [BLOCK TEMPO](https://www.blocktempo.com)
-1. [區塊客(https://blockcast.it)
+1. [區塊客](https://blockcast.it)
 1. [每日幣研](https://cryptowesearch.com)
 
 ## 金融資安人才
