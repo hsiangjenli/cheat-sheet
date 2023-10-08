@@ -1,11 +1,10 @@
 ---
-title: finTech dictionary
+title: fintech dictionary
 date: 2023-02-17
 tags: fintech
 categories: fintech
 version: personal note
 ---
-# FinTech dictionary
 
 ## SME Finance _中小企業金融_
 > Small and Medium Enterprise
@@ -66,10 +65,15 @@ version: personal note
 
 # Fintech 未來趨勢
 
-## 人工智慧
+## 人工智慧 / 大數據
 1. [金融業運用人工智慧(AI)之核心原則與相關推動政策草案](https://www.fsc.gov.tw/uploaddowndoc?file=news/202308151432200.pdf&filedisplay=%E9%99%84%E4%BB%B6_%E9%87%91%E8%9E%8D%E6%A5%AD%E9%81%8B%E7%94%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%28AI%29%E4%B9%8B%E6%A0%B8%E5%BF%83%E5%8E%9F%E5%89%87%E8%88%87%E7%9B%B8%E9%97%9C%E6%8E%A8%E5%8B%95%E6%94%BF%E7%AD%96%28%E8%8D%89%E6%A1%88%29.pdf&flag=doc)
 
+##### 網路文章
+1. [科技金融浪潮下，要創新也要容錯！三大金控數位長首揭致勝轉型樞紐](https://www.businesstoday.com.tw/article/category/183017/post/202210120030/)
+1. [工程師闖蕩金融界！國泰金控首位數據分析師，從資料中挖出金礦](https://www.bnext.com.tw/article/49363/cathayholdings-data-engineers)
+
 ## 區塊鏈
+
 ##### 保險業
 1. [2023-保險理賠全程數位化大突破](https://www.ithome.com.tw/article/155216)
 
@@ -83,6 +87,7 @@ version: personal note
 1. [2023-臺灣金融資安再升級](https://www.ithome.com.tw/article/155469)
 
 ## Conference
+
 ##### CYBERSEC 2023
 1. [金融業雲端轉型三部曲之挑戰與突破](https://cyber.ithome.com.tw/2023/session-page/2027) [📄](https://s.itho.me/ccms_slides/2023/5/18/2a99f8a4-410e-439f-a5ae-00249104e3b1.pdf)
 1. [通往金融網路安全之事件反應和數位鑑識路徑](https://cyber.ithome.com.tw/2023/session-page/1802) [📄](https://s.itho.me/ccms_slides/2023/5/18/9dfdf0ec-e634-4836-864e-bbf2a64aec8e.pdf)
@@ -91,6 +96,10 @@ version: personal note
 ##### Cloud Summit 2023
 1. [打造高效雲端架構，推動金融應用轉型](https://cloudsummit.ithome.com.tw/2023/session-page/1965) [📄](https://s.itho.me/ccms_slides/2023/7/28/326e9418-d1e4-4c6a-bbfe-dd8b396e6fca.pdf)
 1. [從無到有，運用企業架構分析結合雲端技術加速業務落地](https://cloudsummit.ithome.com.tw/2023/session-page/1990) [📄](https://s.itho.me/ccms_slides/2023/7/28/28887d3a-f645-44c5-a4cb-f3cb40ed3dca.pdf)
+
+##### 國泰技術年會 2023
+1. [2023 國泰金控技術年會 混血共融新智慧](https://www.youtube.com/live/fF5cH-2jPkI?si=kAhXSID6LDyIK-J_)
+
 
 ## 金融科技發展路徑圖(2.0)
 1. [金融科技發展路徑圖(2.0)](https://www.fsc.gov.tw/uploaddowndoc?file=news/202308151434570.pdf&filedisplay=%E9%99%84%E4%BB%B61-%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80%E7%99%BC%E5%B1%95%E8%B7%AF%E5%BE%91%E5%9C%96%282.0%29.pdf&flag=doc)
