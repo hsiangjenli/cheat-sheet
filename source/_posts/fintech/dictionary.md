@@ -6,6 +6,8 @@ categories: fintech
 version: personal note
 ---
 
+# Fintech
+
 ## SME Finance _中小企業金融_
 > Small and Medium Enterprise
 
