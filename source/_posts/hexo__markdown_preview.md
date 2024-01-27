@@ -5,10 +5,6 @@ tags: hexo, cheat-sheets
 categories: hexo
 version: 0.10
 ---
-
-# H1-This is first h1 heading, it will be hidden
-
-
 # H1: This is second h1 heading
 
 ## H2: This is first h2 heading

@@ -6,7 +6,7 @@ categories: hexo
 version: 0.10
 ---
 
-# H1-1(First Heading will be hidden)
+# H1
 ### Installation
 ##### Install manually
 ```bash
