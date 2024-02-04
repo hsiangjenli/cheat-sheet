@@ -8,22 +8,25 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 # Software
 
+<!-- ========================================================== -->
 ## 工程師術語
-| Shortcut  | Description           |
-|:--------- |:--------------------- |
-| **PR**    | Pull Request          |
-| **PTAL**  | Please Take A Look    |
-| **TBR**   | To Be Reviewed        |
-| **TL;DR** | Too Long; Didn’t Read |
-| **LGTM**  | Looks Good To Me      |
-| **SGTM**  | Sounds Good To Me     |
-| **TBD**   | To Be Done            |
+| Shortcut         | Description           |
+|:---------------- |:--------------------- |
+| <kbd>PR</kbd>    | Pull Request          |
+| <kbd>PTAL</kbd>  | Please Take A Look    |
+| <kbd>TBR</kbd>   | To Be Reviewed        |
+| <kbd>TL;DR</kbd> | Too Long; Didn’t Read |
+| <kbd>LGTM</kbd>  | Looks Good To Me      |
+| <kbd>SGTM</kbd>  | Sounds Good To Me     |
+| <kbd>TBD</kbd>   | To Be Done            |
 
+<!-- ========================================================== -->
 ## Environment
 1. [docker](...)
 1. [py-dependency](....)
 1. [remote-dev](...)
 
+<!-- ========================================================== -->
 ## Docker
 
 ##### Installation
@@ -46,10 +49,14 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 # Python
 
+<!-- ========================================================== -->
 ## Design Pattern
 
 ##### State Design Pattern
 1. [The State Design Pattern in Python Explained](https://www.youtube.com/watch?v=5OzLrbk82zY)
+
+##### Documentation
+1. [mkdocstrings/griffe](https://github.com/mkdocstrings/griffefv)
 
 ##### Flow Chart
 1. [cdfmlr/pyflowchart](https://github.com/cdfmlr/pyflowchart)
@@ -63,36 +70,44 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 # CI/CD
 
+<!-- ========================================================== -->
 ## Version Control
 1. [Data Version Control | Git for Data & Models | ML Experiments Management](https://dvc.org)
 1. [Data Version Control With Python and DVC](https://realpython.com/python-data-version-control/)
 
-
-## Github
+<!-- ========================================================== -->
+## Github 
 
 1. [Git Commit Message 這樣寫會更好，替專案引入規範與範例](https://wadehuanglearning.blogspot.com/2019/05/commit-commit-commit-why-what-commit.html)
 1. [How to write a good commit message | git tutorial](https://youtu.be/g9-X6fR2eYA)
 1. [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
 1. [requarks/changelog-action](https://github.com/requarks/changelog-action)
 
-##### Commit message
-| Type       | Description                                              |
-|:---------- |:-------------------------------------------------------- |
-| `feat`     | Add new features                                         |
-| `chore`    | Build process or auxiliary tool changes                  |
-| `fix`      | Fix some bugs                                            |
-| `refactor` | A code change that neither fixes a bug or adds a feature |
-| `style`    | Change coding style                                      |
-| `docs`     | Write new documentation                                  |
+##### Commit message 
+1. [pre-commit](https://pre-commit.com/)
+1. [Husky](https://typicode.github.io/husky/)
+1. [I Do this for every commit and why you should too!](https://www.youtube.com/watch?v=NK4uXmkGMSU)
+1. [MichaelCurrin/auto-commit-msg](https://github.com/MichaelCurrin/auto-commit-msg)
+
+##### Commit message Convention
+| Type                | Description                                              |
+|:------------------- |:-------------------------------------------------------- |
+| <kbd>feat</kbd>     | Add new features                                         |
+| <kbd>chore</kbd>    | Build process or auxiliary tool changes                  |
+| <kbd>fix</kbd>      | Fix some bugs                                            |
+| <kbd>refactor</kbd> | A code change that neither fixes a bug or adds a feature |
+| <kbd>style</kbd>    | Change coding style                                      |
+| <kbd>docs</kbd>     | Write new documentation                                  |
 
 ##### Branch Naming Convention
-| Type   | Description                            |
-|:------ |:-------------------------------------- |
-| `wip`  | Works in progress                      |
-| `feat` | Feature                                |
-| `bug`  | Bug fix or experiment                  |
-| `junk` | Throwaway branch created to experiment |
+| Type            | Description                            |
+|:--------------- |:-------------------------------------- |
+| <kbd>wip</kbd>  | Works in progress                      |
+| <kbd>feat</kbd> | Feature                                |
+| <kbd>bug</kbd>  | Bug fix or experiment                  |
+| <kbd>junk</kbd> | Throwaway branch created to experiment |
 
+<!-- ========================================================== -->
 ## Auto
 ##### Jenkins
 
