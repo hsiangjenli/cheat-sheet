@@ -22,9 +22,9 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 <!-- ========================================================== -->
 ## Environment
-1. [docker](...)
+<!-- 1. [docker](...)
 1. [py-dependency](....)
-1. [remote-dev](...)
+1. [remote-dev](...) -->
 
 <!-- ========================================================== -->
 ## Docker
@@ -72,8 +72,17 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 <!-- ========================================================== -->
 ## Version Control
+
+##### git
+
+##### DVC
+> ML Experiments Management with Git
 1. [Data Version Control | Git for Data & Models | ML Experiments Management](https://dvc.org)
 1. [Data Version Control With Python and DVC](https://realpython.com/python-data-version-control/)
+
+##### elementary
+> Open-source data observability for analytics engineers
+1. https://github.com/elementary-data/elementaryelementary
 
 <!-- ========================================================== -->
 ## Github 
@@ -108,7 +117,8 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 | <kbd>junk</kbd> | Throwaway branch created to experiment |
 
 <!-- ========================================================== -->
-## Auto
+## Workflow/Pipeline/MLops
+
 ##### Jenkins
 
 ##### Github action
@@ -117,4 +127,26 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 ##### Airflow
 
+##### mage-ai
+> The modern replacement for Airflow. Build, run, and manage data pipelines for integrating and transforming data.
+1. https://github.com/mage-ai/mage-ai
+
 ##### Drone CI
+
+##### Flyte
+1. An open-source orchestrator that facilitates building production-grade data and ML pipelines
+
+##### datachecks
+> Datachecks is an open-source data monitoring tool that helps to monitor the data quality of databases and data pipelines. It identifies potential issues, including in the databases and data pipelines. It helps to identify the root cause of the data quality issues and helps to improve the data quality.
+1. https://github.com/waterdipai/datachecks
+
+<!-- ========================================================== -->
+## Logs
+
+##### hydra
+> A framework for elegantly configuring complex applications
+1. https://github.com/facebookresearch/hydra
+
+##### whylogs
+> The open standard for data logging
+1. https://github.com/whylabs/whylogs
