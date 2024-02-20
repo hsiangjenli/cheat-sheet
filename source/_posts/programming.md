@@ -86,6 +86,41 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 <!-- ========================================================== -->
 
+## Workflow/Pipeline/MLops
+
+##### Jenkins
+
+##### Github action
+
+- [What's the difference between a GitHub action and a workflow?](https://dev.to/github/whats-the-difference-between-a-github-action-and-a-workflow-2gba)
+
+##### Airflow
+
+##### mage-ai
+> The modern replacement for Airflow. Build, run, and manage data pipelines for integrating and transforming data.
+1. https://github.com/mage-ai/mage-ai
+
+##### Drone CI
+
+##### Flyte
+1. An open-source orchestrator that facilitates building production-grade data and ML pipelines
+
+##### datachecks
+> Datachecks is an open-source data monitoring tool that helps to monitor the data quality of databases and data pipelines. It identifies potential issues, including in the databases and data pipelines. It helps to identify the root cause of the data quality issues and helps to improve the data quality.
+1. https://github.com/waterdipai/datachecks
+
+<!-- ========================================================== -->
+## Logs
+
+##### hydra
+> A framework for elegantly configuring complex applications
+1. https://github.com/facebookresearch/hydra
+
+##### whylogs
+> The open standard for data logging
+1. https://github.com/whylabs/whylogs
+
+<!-- ========================================================== -->
 # git
 
 ## Articles
@@ -130,39 +165,3 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 | <kbd>squash</kbd> | 將該提交與前一個提交合併成一個提交                            |
 | <kbd>fixup</kbd>  | 與 squash 類似，但用於合併提交而無需保留該提交的提交訊息      |
 | <kbd>exec</kbd>   | 執行一個 shell 命令。這允許你在 rebase 過程中執行自定義的命令 |
-
-
-<!-- ========================================================== -->
-## Workflow/Pipeline/MLops
-
-##### Jenkins
-
-##### Github action
-
-- [What's the difference between a GitHub action and a workflow?](https://dev.to/github/whats-the-difference-between-a-github-action-and-a-workflow-2gba)
-
-##### Airflow
-
-##### mage-ai
-> The modern replacement for Airflow. Build, run, and manage data pipelines for integrating and transforming data.
-1. https://github.com/mage-ai/mage-ai
-
-##### Drone CI
-
-##### Flyte
-1. An open-source orchestrator that facilitates building production-grade data and ML pipelines
-
-##### datachecks
-> Datachecks is an open-source data monitoring tool that helps to monitor the data quality of databases and data pipelines. It identifies potential issues, including in the databases and data pipelines. It helps to identify the root cause of the data quality issues and helps to improve the data quality.
-1. https://github.com/waterdipai/datachecks
-
-<!-- ========================================================== -->
-## Logs
-
-##### hydra
-> A framework for elegantly configuring complex applications
-1. https://github.com/facebookresearch/hydra
-
-##### whylogs
-> The open standard for data logging
-1. https://github.com/whylabs/whylogs
