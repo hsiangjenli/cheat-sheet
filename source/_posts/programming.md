@@ -85,20 +85,23 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. https://github.com/elementary-data/elementaryelementary
 
 <!-- ========================================================== -->
-## Github 
+
+# git
+
+## Articles
 
 1. [Git Commit Message 這樣寫會更好，替專案引入規範與範例](https://wadehuanglearning.blogspot.com/2019/05/commit-commit-commit-why-what-commit.html)
 1. [How to write a good commit message | git tutorial](https://youtu.be/g9-X6fR2eYA)
 1. [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
 1. [requarks/changelog-action](https://github.com/requarks/changelog-action)
 
-##### Commit message 
+## Commit message 
 1. [pre-commit](https://pre-commit.com/)
 1. [Husky](https://typicode.github.io/husky/)
 1. [I Do this for every commit and why you should too!](https://www.youtube.com/watch?v=NK4uXmkGMSU)
 1. [MichaelCurrin/auto-commit-msg](https://github.com/MichaelCurrin/auto-commit-msg)
 
-##### Commit message Convention
+## Commit message Convention
 | Type                | Description                                              |
 |:------------------- |:-------------------------------------------------------- |
 | <kbd>feat</kbd>     | Add new features                                         |
@@ -108,13 +111,26 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 | <kbd>style</kbd>    | Change coding style                                      |
 | <kbd>docs</kbd>     | Write new documentation                                  |
 
-##### Branch Naming Convention
+## Branch Naming Convention
 | Type            | Description                            |
 |:--------------- |:-------------------------------------- |
 | <kbd>wip</kbd>  | Works in progress                      |
 | <kbd>feat</kbd> | Feature                                |
 | <kbd>bug</kbd>  | Bug fix or experiment                  |
 | <kbd>junk</kbd> | Throwaway branch created to experiment |
+
+## Rebase
+- [What does "pick" in Git's interactive rebase do?](https://stackoverflow.com/questions/45563865/what-does-pick-in-gits-interactive-rebase-do)
+- [About Git rebase](https://docs.github.com/en/get-started/using-git/about-git-rebase)
+| Commands          | Description                                                   |
+|:----------------- |:------------------------------------------------------------- |
+| <kbd>pick</kbd>   | 保留該提交，不進行任何更改                                    |
+| <kbd>reword</kbd> | 修改該提交的提交訊息                                          |
+| <kbd>edit</kbd>   | 挑選該提交，並在應用該提交時停止，以便你可以進行修改          |
+| <kbd>squash</kbd> | 將該提交與前一個提交合併成一個提交                            |
+| <kbd>fixup</kbd>  | 與 squash 類似，但用於合併提交而無需保留該提交的提交訊息      |
+| <kbd>exec</kbd>   | 執行一個 shell 命令。這允許你在 rebase 過程中執行自定義的命令 |
+
 
 <!-- ========================================================== -->
 ## Workflow/Pipeline/MLops
