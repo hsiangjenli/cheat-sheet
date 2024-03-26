@@ -9,7 +9,7 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 # Software
 
 <!-- ========================================================== -->
-## 工程師術語
+## Meaning of Abbreviations
 | Shortcut         | Description           |
 |:---------------- |:--------------------- |
 | <kbd>PR</kbd>    | Pull Request          |
@@ -27,6 +27,10 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. [remote-dev](...) -->
 
 <!-- ========================================================== -->
+
+## Linux
+- [FOSS Linux](https://www.fosslinux.com/)
+
 ## Docker
 
 ##### Installation
@@ -46,17 +50,34 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. [Docker Desktop WSL ext4.vhdx too large](https://stackoverflow.com/questions/70946140/docker-desktop-wsl-ext4-vhdx-too-large)
 1. [設定 super user - nvidia-docker :权限被拒绝](https://cloud.tencent.com/developer/ask/sof/106208583)
 1. [Docker image platform compatibility issue with MAC Silicon processors(M1/M2)](https://medium.com/@email.bajaj/docker-image-platform-compatibility-issue-with-mac-silicon-processors-m1-m2-ee2d5ea3ff0e)
-
+1. [Solution for docker: invalid reference format: repository name must be lowercase](https://forum.codewithmosh.com/t/solution-for-docker-invalid-reference-format-repository-name-must-be-lowercase/10630)
 # Python
 
 <!-- ========================================================== -->
 ## Design Pattern
 
+##### 基本
+- [Python 寫程式的「底線」：7 種使用技巧](https://haosquare.com/python-underscore/)
+
 ##### State Design Pattern
 1. [The State Design Pattern in Python Explained](https://www.youtube.com/watch?v=5OzLrbk82zY)
 
+##### Class
+1. [Python dataclass 教學：輕鬆定義資料類別](https://haosquare.com/python-dataclass/)
+1. [Python Property 教學：保護變數資料的 Getter 與 Setter](https://haosquare.com/python-property/)
+1. [Python Type Hints 教學：我犯過的 3 個菜鳥錯誤](https://haosquare.com/python-type-hints-3-beginner-mistakes/)
+<!-- 1. [型別檢查器]() -->
+##### Enum
+1. [Python Enum 枚舉教學：有條理管理常數集合的好工具](https://haosquare.com/python-enum/)
+
 ##### Documentation
 1. [mkdocstrings/griffe](https://github.com/mkdocstrings/griffefv)
+1. [Top 6 Tools to Turn Code into Beautiful Diagrams](https://youtu.be/jCd6XfWLZsg?si=B4BemSK_x2dlCOhc)
+1. [Diagrams as Code](https://diagrams.mingrammer.com/)
+
+##### Project Structure
+1. [cookiecutter](https://github.com/cookiecutter/cookiecutter)
+> A cross-platform command-line utility that creates projects from cookiecutters (project templates), e.g. Python package projects, C projects.
 
 ##### Flow Chart
 1. [cdfmlr/pyflowchart](https://github.com/cdfmlr/pyflowchart)
@@ -88,10 +109,12 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 ## Workflow/Pipeline/MLops
 
+##### Crontab
+- [Ubuntu 排程設定 ：Crontab 排程使用教學](https://jqnets.com/blog/ubuntu-排程設定-：crontab-排程使用教學/)
+
 ##### Jenkins
 
 ##### Github action
-
 - [What's the difference between a GitHub action and a workflow?](https://dev.to/github/whats-the-difference-between-a-github-action-and-a-workflow-2gba)
 
 ##### Airflow
@@ -157,6 +180,7 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 ## Rebase
 - [What does "pick" in Git's interactive rebase do?](https://stackoverflow.com/questions/45563865/what-does-pick-in-gits-interactive-rebase-do)
 - [About Git rebase](https://docs.github.com/en/get-started/using-git/about-git-rebase)
+
 | Commands          | Description                                                   |
 |:----------------- |:------------------------------------------------------------- |
 | <kbd>pick</kbd>   | 保留該提交，不進行任何更改                                    |
