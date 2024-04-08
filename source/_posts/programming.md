@@ -58,6 +58,7 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 ##### 基本
 - [Python 寫程式的「底線」：7 種使用技巧](https://haosquare.com/python-underscore/)
+- [Abstract Method - [Python物件導向]Python多型(Polymorphism)實用教學](https://www.learncodewithmike.com/2020/01/python-polymorphism.html)
 
 ##### State Design Pattern
 1. [The State Design Pattern in Python Explained](https://www.youtube.com/watch?v=5OzLrbk82zY)
@@ -75,7 +76,11 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. [Top 6 Tools to Turn Code into Beautiful Diagrams](https://youtu.be/jCd6XfWLZsg?si=B4BemSK_x2dlCOhc)
 1. [Diagrams as Code](https://diagrams.mingrammer.com/)
 
-##### Project Structure
+##### Project
+1. [astral-sh/uv](https://github.com/astral-sh/uv)
+> An extremely fast Python package installer and resolver, written in Rust.
+1. [astral-sh/rye](https://github.com/astral-sh/rye)
+> a Hassle-Free Python Experience
 1. [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 > A cross-platform command-line utility that creates projects from cookiecutters (project templates), e.g. Python package projects, C projects.
 
@@ -147,7 +152,7 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 # git
 
 ## Articles
-
+1. [菜雞新訓記 (1): 使用 Git 來進行版本控制吧](https://github.com/Igouist/hello-git)
 1. [Git Commit Message 這樣寫會更好，替專案引入規範與範例](https://wadehuanglearning.blogspot.com/2019/05/commit-commit-commit-why-what-commit.html)
 1. [How to write a good commit message | git tutorial](https://youtu.be/g9-X6fR2eYA)
 1. [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
