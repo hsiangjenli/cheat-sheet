@@ -128,6 +128,10 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 > The modern replacement for Airflow. Build, run, and manage data pipelines for integrating and transforming data.
 1. https://github.com/mage-ai/mage-ai
 
+##### wandb
+> A tool for visualizing and tracking your machine learning experiments.
+1. https://github.com/wandb/wandb
+
 ##### Drone CI
 
 ##### Flyte
