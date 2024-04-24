@@ -6,6 +6,11 @@ categories: programming
 collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 ---
 
+# Algorithm
+
+## OCW
+1. [Hello 演算法](https://www.hello-algo.com/zh-hant/)
+
 # Software
 
 <!-- ========================================================== -->
@@ -121,6 +126,7 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 ##### Github action
 - [What's the difference between a GitHub action and a workflow?](https://dev.to/github/whats-the-difference-between-a-github-action-and-a-workflow-2gba)
+- [Actionforge is a VS Code Extension to Build GitHub Workflows Visually](https://www.infoq.com/news/2024/03/actionforge-github-action-gui/)
 
 ##### Airflow
 
@@ -161,6 +167,8 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. [How to write a good commit message | git tutorial](https://youtu.be/g9-X6fR2eYA)
 1. [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
 1. [requarks/changelog-action](https://github.com/requarks/changelog-action)
+1. [🔄 全面掌握 Git 撤銷：詳細解析在 4 種不同層級下的操作方式](https://blog.o-w-o.cc/archives/git-revert-tutorial)
+1. [Igouist/hello-git](https://github.com/Igouist/hello-git)
 
 ## Commit message 
 1. [pre-commit](https://pre-commit.com/)
