@@ -72,7 +72,8 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. [Python dataclass 教學：輕鬆定義資料類別](https://haosquare.com/python-dataclass/)
 1. [Python Property 教學：保護變數資料的 Getter 與 Setter](https://haosquare.com/python-property/)
 1. [Python Type Hints 教學：我犯過的 3 個菜鳥錯誤](https://haosquare.com/python-type-hints-3-beginner-mistakes/)
-<!-- 1. [型別檢查器]() -->
+1. [Pydantic: Simplifying Data Validation in Python](https://realpython.com/python-pydantic/)
+
 ##### Enum
 1. [Python Enum 枚舉教學：有條理管理常數集合的好工具](https://haosquare.com/python-enum/)
 
@@ -88,6 +89,8 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 > a Hassle-Free Python Experience
 1. [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 > A cross-platform command-line utility that creates projects from cookiecutters (project templates), e.g. Python package projects, C projects.
+1. [pypa/hatch](https://github.com/pypa/hatch)
+> Modern, extensible Python project management
 
 ##### Flow Chart
 1. [cdfmlr/pyflowchart](https://github.com/cdfmlr/pyflowchart)
@@ -175,6 +178,9 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. [Husky](https://typicode.github.io/husky/)
 1. [I Do this for every commit and why you should too!](https://www.youtube.com/watch?v=NK4uXmkGMSU)
 1. [MichaelCurrin/auto-commit-msg](https://github.com/MichaelCurrin/auto-commit-msg)
+1. [Git Squash: How to Condense Your Commit History](https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history)
+1. [Smoother rebases with auto-squashing Git commits](https://andrewlock.net/smoother-rebases-with-auto-squashing-git-commits/)
+1. [Git Squash Simplified](https://dev.to/pb/git-squash-simplified-3ba1)
 
 ## Commit message Convention
 | Type                | Description                                              |
