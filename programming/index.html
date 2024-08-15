@@ -136,6 +136,7 @@
 </div></div><div class="h2-section"><h2 id="Design-Pattern"><a href="#Design-Pattern" class="headerlink" title="Design Pattern"></a>Design Pattern</h2><div class="body"><h5 id="&#x57FA;&#x672C;"><a href="#&#x57FA;&#x672C;" class="headerlink" title="&#x57FA;&#x672C;"></a>&#x57FA;&#x672C;</h5><ul>
 <li><a target="_blank" rel="noopener" href="https://haosquare.com/python-underscore/">Python &#x5BEB;&#x7A0B;&#x5F0F;&#x7684;&#x300C;&#x5E95;&#x7DDA;&#x300D;&#xFF1A;7 &#x7A2E;&#x4F7F;&#x7528;&#x6280;&#x5DE7;</a></li>
 <li><a target="_blank" rel="noopener" href="https://www.learncodewithmike.com/2020/01/python-polymorphism.html">Abstract Method - [Python&#x7269;&#x4EF6;&#x5C0E;&#x5411;]Python&#x591A;&#x578B;(Polymorphism)&#x5BE6;&#x7528;&#x6559;&#x5B78;</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.threads.net/@geoff_spacetime/post/C-WfyS2zcqd?xmt=AQGzzlS9UXNGDnBhZtUt9kdmJB45NOEHuBbKKxqm4pgoDQ">geoff_spacetime/&#x8B8A;&#x6578;&#x547D;&#x540D;&#x6163;&#x4F8B;</a></li>
 </ul>
 <h5 id="State-Design-Pattern"><a href="#State-Design-Pattern" class="headerlink" title="State Design Pattern"></a>State Design Pattern</h5><ol>
 <li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=5OzLrbk82zY">The State Design Pattern in Python Explained</a></li>
@@ -255,7 +256,14 @@
 <li><a target="_blank" rel="noopener" href="https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history">Git Squash: How to Condense Your Commit History</a></li>
 <li><a target="_blank" rel="noopener" href="https://andrewlock.net/smoother-rebases-with-auto-squashing-git-commits/">Smoother rebases with auto-squashing Git commits</a></li>
 <li><a target="_blank" rel="noopener" href="https://dev.to/pb/git-squash-simplified-3ba1">Git Squash Simplified</a></li>
+<li><a target="_blank" rel="noopener" href="https://gitmoji.dev/">gitmoji</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/di-sukharev/opencommit">di-sukharev/opencommit</a></li>
 </ol>
+</div></div><div class="h2-section"><h2 id="Command"><a href="#Command" class="headerlink" title="Command"></a>Command</h2><div class="body"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># &#x5217;&#x51FA;&#x6240;&#x6709;&#x66FE;&#x7D93;&#x6709; commit &#x904E;&#x7684;&#x6587;&#x4EF6;</span>
+<span class="token function">git</span> log <span class="token parameter variable">--pretty</span><span class="token operator">=</span>format: --name-only --diff-filter<span class="token operator">=</span>A <span class="token operator">|</span> <span class="token function">sort</span> <span class="token parameter variable">-u</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># &#x522A;&#x9664;&#x6240;&#x6709;&#x8DDF; a.txt &#x76F8;&#x95DC;&#x7684;&#x7D00;&#x9304;</span>
+<span class="token function">git</span> filter-branch <span class="token parameter variable">--force</span> --index-filter <span class="token string">&apos;git rm --cached --ignore-unmatch a.txt&apos;</span> --prune-empty --tag-name-filter <span class="token function">cat</span> -- <span class="token parameter variable">--all</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
 </div></div><div class="h2-section"><h2 id="Commit-message-Convention"><a href="#Commit-message-Convention" class="headerlink" title="Commit message Convention"></a>Commit message Convention</h2><div class="body"><table>
 <thead>
 <tr>
