@@ -64,6 +64,7 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 ##### 基本
 - [Python 寫程式的「底線」：7 種使用技巧](https://haosquare.com/python-underscore/)
 - [Abstract Method - [Python物件導向]Python多型(Polymorphism)實用教學](https://www.learncodewithmike.com/2020/01/python-polymorphism.html)
+- [geoff_spacetime/變數命名慣例](https://www.threads.net/@geoff_spacetime/post/C-WfyS2zcqd?xmt=AQGzzlS9UXNGDnBhZtUt9kdmJB45NOEHuBbKKxqm4pgoDQ)
 
 ##### State Design Pattern
 1. [The State Design Pattern in Python Explained](https://www.youtube.com/watch?v=5OzLrbk82zY)
@@ -181,6 +182,18 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. [Git Squash: How to Condense Your Commit History](https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history)
 1. [Smoother rebases with auto-squashing Git commits](https://andrewlock.net/smoother-rebases-with-auto-squashing-git-commits/)
 1. [Git Squash Simplified](https://dev.to/pb/git-squash-simplified-3ba1)
+1. [gitmoji](https://gitmoji.dev/)
+1. [di-sukharev/opencommit](https://github.com/di-sukharev/opencommit)
+
+## Command
+```bash
+# 列出所有曾經有 commit 過的文件
+git log --pretty=format: --name-only --diff-filter=A | sort -u
+```
+```bash
+# 刪除所有跟 a.txt 相關的紀錄
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch a.txt' --prune-empty --tag-name-filter cat -- --all
+```
 
 ## Commit message Convention
 | Type                | Description                                              |
