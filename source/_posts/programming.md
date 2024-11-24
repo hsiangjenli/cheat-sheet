@@ -48,14 +48,16 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 ##### docker stopsignal
 
-##### Book
+##### Book or Video
 1. [不可不知的 Docker 開發部署實戰筆記：網站工程師一定要會的 8大核心能力](https://www.tenlong.com.tw/products/9786263333086)
+1. [Virtual Machine (VM) vs Docker](https://youtu.be/a1M_thDTqmU?si=rBzQCVE0YonERAiP)
 
 ##### Error
 1. [Docker Desktop WSL ext4.vhdx too large](https://stackoverflow.com/questions/70946140/docker-desktop-wsl-ext4-vhdx-too-large)
 1. [設定 super user - nvidia-docker :权限被拒绝](https://cloud.tencent.com/developer/ask/sof/106208583)
 1. [Docker image platform compatibility issue with MAC Silicon processors(M1/M2)](https://medium.com/@email.bajaj/docker-image-platform-compatibility-issue-with-mac-silicon-processors-m1-m2-ee2d5ea3ff0e)
 1. [Solution for docker: invalid reference format: repository name must be lowercase](https://forum.codewithmosh.com/t/solution-for-docker-invalid-reference-format-repository-name-must-be-lowercase/10630)
+
 # Python
 
 <!-- ========================================================== -->
@@ -103,10 +105,27 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 # Julia
 
+# SRE __Site Reliability Engineering__
+
+## Termindology
+1. Chaos Engineering - 混沌工程
+
+## Article
+1. [✨️什麼是混沌工程（Chaos Engineering）](https://www.threads.net/@og_programming/post/DCwaIksPw2l)
+
 # CI/CD
 
 <!-- ========================================================== -->
+## Termindology
+1. Infrastructure as Code _IaC_
+1. GitOps
+
+<!-- ========================================================== -->
 ## Version Control
+
+##### Distributed Version Control System，DVCS
+##### Center Version Control System
+##### Team Foundation Version Control, TFVC
 
 ##### git
 
@@ -167,12 +186,13 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 ## Articles
 1. [菜雞新訓記 (1): 使用 Git 來進行版本控制吧](https://github.com/Igouist/hello-git)
-1. [Git Commit Message 這樣寫會更好，替專案引入規範與範例](https://wadehuanglearning.blogspot.com/2019/05/commit-commit-commit-why-what-commit.html)
-1. [How to write a good commit message | git tutorial](https://youtu.be/g9-X6fR2eYA)
-1. [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
-1. [requarks/changelog-action](https://github.com/requarks/changelog-action)
-1. [🔄 全面掌握 Git 撤銷：詳細解析在 4 種不同層級下的操作方式](https://blog.o-w-o.cc/archives/git-revert-tutorial)
-1. [Igouist/hello-git](https://github.com/Igouist/hello-git)
+2. [What is Git? Our beginner’s guide to version control](https://github.blog/developer-skills/programming-languages-and-frameworks/what-is-git-our-beginners-guide-to-version-control/)
+3. [Git Commit Message 這樣寫會更好，替專案引入規範與範例](https://wadehuanglearning.blogspot.com/2019/05/commit-commit-commit-why-what-commit.html)
+4. [How to write a good commit message | git tutorial](https://youtu.be/g9-X6fR2eYA)
+5. [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
+6. [requarks/changelog-action](https://github.com/requarks/changelog-action)
+7. [🔄 全面掌握 Git 撤銷：詳細解析在 4 種不同層級下的操作方式](https://blog.o-w-o.cc/archives/git-revert-tutorial)
+8. [Igouist/hello-git](https://github.com/Igouist/hello-git)
 
 ## Commit message 
 1. [pre-commit](https://pre-commit.com/)
@@ -225,3 +245,11 @@ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch a.txt
 | <kbd>squash</kbd> | 將該提交與前一個提交合併成一個提交                            |
 | <kbd>fixup</kbd>  | 與 squash 類似，但用於合併提交而無需保留該提交的提交訊息      |
 | <kbd>exec</kbd>   | 執行一個 shell 命令。這允許你在 rebase 過程中執行自定義的命令 |
+
+# Web
+
+## Icon
+- [fontawesome](https://fontawesome.com/icons)
+
+## Vector Image
+- [unDraw](https://undraw.co/illustrations)
