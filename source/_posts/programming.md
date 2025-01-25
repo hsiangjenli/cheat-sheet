@@ -42,6 +42,11 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. [適用於Ubuntu與WSL的Nvidia Docker安裝方式](https://youtu.be/3Od1gTKUwTY)
 1. [Tensorflow with GPU on Windows WSL using Docker](https://youtu.be/YozfiLI1ogY)
 1. [【技術分享】重灌後，安裝 GPU 驅動以及 Docker](https://ntust-sims-lab.github.io/it-blog/install_gpu_docker_ubuntu2004/)
+1. [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/)
+
+##### Setup
+1. [How to Use a .dockerignore File: A Comprehensive Guide with Examples](https://hn.mrugesh.dev/how-to-use-a-dockerignore-file-a-comprehensive-guide-with-examples)
+1. [How to use Docker Build Args and Environment Variables](https://refine.dev/blog/docker-build-args-and-env-vars/)
 
 ##### docker network-alias
 1. [談談 docker network-alias](https://blog.maxkit.com.tw/2017/04/docker-network-alias_30.html)
@@ -102,6 +107,11 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 ##### Pipeline
 1. [Data PIPELINE - Orchest](https://orchest.readthedocs.io/en/stable/#)
 1. [airflow使用指南-机器学习工程自动化](https://blog.csdn.net/weixin_42010722/article/details/121453151)
+
+# Database
+
+## NoSQL
+1. [SQL & MongoDB Query Comparison](https://notes.boshkuo.com/docs/MongoDB/sql-mql-comparison)
 
 # Julia
 
