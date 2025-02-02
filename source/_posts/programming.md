@@ -13,6 +13,18 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 # Software
 
+## 縮寫
+- SDLC（Software Development Life Cycle，軟體開發生命週期）
+
+## 名詞用法
+- [程序代码中，怎么区分status和state？](https://www.zhihu.com/question/21994784)  
+
+|      | State                              | Status                                |
+|------------|----------------------------------------|-------------------------------------------|
+| 定義       | 表示具備明確轉換流程的狀態             | 表示單一、靜態的狀態或屬性                  |
+| 轉換關係   | 狀態之間有明確的遷移關係               | 狀態之間沒有明確的轉換流程                  |
+| 範例       | TCP 狀態（SYN_SENT、ESTABLISHED 等）   | HTTP 狀態碼（200、404 等）、啟用/停用標記   |
+
 <!-- ========================================================== -->
 ## Meaning of Abbreviations
 | Shortcut         | Description           |
@@ -62,6 +74,7 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. [設定 super user - nvidia-docker :权限被拒绝](https://cloud.tencent.com/developer/ask/sof/106208583)
 1. [Docker image platform compatibility issue with MAC Silicon processors(M1/M2)](https://medium.com/@email.bajaj/docker-image-platform-compatibility-issue-with-mac-silicon-processors-m1-m2-ee2d5ea3ff0e)
 1. [Solution for docker: invalid reference format: repository name must be lowercase](https://forum.codewithmosh.com/t/solution-for-docker-invalid-reference-format-repository-name-must-be-lowercase/10630)
+1. [when using docker compose 3.8 getting 'version is unsupported' error](https://stackoverflow.com/questions/61344927/when-using-docker-compose-3-8-getting-version-is-unsupported-error)
 
 # Python
 
@@ -263,3 +276,7 @@ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch a.txt
 
 ## Vector Image
 - [unDraw](https://undraw.co/illustrations)
+
+## API
+- [API Parrot](https://apiparrot.com/)
+
