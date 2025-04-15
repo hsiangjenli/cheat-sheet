@@ -10,9 +10,7 @@ version: 0.1
 
 ## 魚骨圖
 
-> <img src="https://hackmd.io/_uploads/HygGfQ9C1e.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; align-item: center" />
-
-1. aaaDDDD
+> <img src="https://hackmd.io/_uploads/r1EKVBoCyg.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; align-item: center" />
 
 ## 六頂思考帽子
 
@@ -24,3 +22,10 @@ version: 0.1
 1. **黑色**：缺點、風險與問題
 1. **黃色**：機會與利益
 1. **綠色**：創意與新想法
+
+## SWOT
+> <img src="https://hackmd.io/_uploads/S1tAXBoAyx.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; align-item: center" />
+
+## STAR
+> <img src="https://hackmd.io/_uploads/SJO3zrjRye.png" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; align-item: center" />
+
