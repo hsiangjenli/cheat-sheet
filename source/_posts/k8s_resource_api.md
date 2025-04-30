@@ -1,12 +1,12 @@
 ---
-title: Kubernetes Resource and apiVersion
+title: Kubernetes
 date: 2025-04-30
 tags: k8s
 categories: k8s
 version: ChatGPT
 ---
 
-# Kubernetes Resource and apiVersion
+# Resource and apiVersion
 
 ### Core Kubernetes Resources
 
@@ -36,7 +36,7 @@ version: ChatGPT
 | **Job**            | `batch/v1`            | 一次性任務，跑完即結束 |
 | **CronJob**        | `batch/v1`            | 定時排程跑的 Job |
 
-### Networking and Access Control Resources
+#### Networking and Access Control Resources
 
 | 資源 (Kind)        | apiVersion          | 說明 |
 |:------------------|:---------------------|:-----|
