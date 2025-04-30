@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+
+  
+  <title>Kubernetes Resource and apiVersion | Cheat Sheets</title>
+  
+    <link rel="icon" href="https://hsiangjenli.github.io/cheat-sheet//img/ico.svg">
+  
+  
+<link rel="stylesheet" href="/cheat-sheet/css/bundle.css">
+<link rel="stylesheet" href="/cheat-sheet/css/main.css">
+
+
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body>
+  
+    <nav class='top-nav' data-js-no-preview role='navigation' style="padding: 2rem;">
+  <div class='container'>
+    <div class='left'>
+  <a class='home back-button' href='/cheat-sheet/'></a>
+</div> 
+    <div class='actions'>
+
+    <a target="_blank" rel="noopener" href='https://github.com/hsiangjenli'><i class="my-button fa-brands fa-github"></i></a>
+    <a href="https://hsiangjenli.github.io/blog"><i class="my-button fa-solid fa-keyboard"></i></a>
+    <a href="https://hsiangjenli.github.io/"><i class="my-button fa-solid fa-user-large"></i></a>
+
+</div>
+  </div>
+</nav>
+   
+    
+  <div id="container" style="padding: 2rem;">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article
+  id="post-k8s_resource_api"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+>
+  <div class="body-area">
+    <header class="main-heading -center" role="banner">
+      <h1 class="h1">Kubernetes Resource and apiVersion</h1>
+      
+      
+    </header>
+
+    <main
+      class="post-content MarkdownBody"
+      data-js-main-body
+      data-js-anchors
+      role="main"
+    >
+      <div class="h1-section"><h1 id="Kubernetes-Resource-and-apiVersion"><a href="#Kubernetes-Resource-and-apiVersion" class="headerlink local-anchor anchor" title="Kubernetes Resource and apiVersion">#</a>Kubernetes Resource and apiVersion</h1><div class="code-section-list" data-isotope="{&quot;itemSelector&quot;:&quot;.h2-section&quot;,&quot;masonry&quot;:{&quot;horizontalOrder&quot;:true},&quot;transitionDuration&quot;:0}"><div class="h2-section"><h2 id="Core-Kubernetes-Resources"><a href="#Core-Kubernetes-Resources" class="headerlink" title="Core Kubernetes Resources"></a>Core Kubernetes Resources</h2><div class="body"><table>
+<thead>
+<tr>
+<th align="left">&#x8CC7;&#x6E90; (Kind)</th>
+<th align="left">apiVersion</th>
+<th align="left">&#x8AAA;&#x660E;</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Pod</strong></td>
+<td align="left"><code>v1</code></td>
+<td align="left">&#x6700;&#x57FA;&#x672C;&#x7684;&#x904B;&#x7B97;&#x55AE;&#x4F4D;</td>
+</tr>
+<tr>
+<td align="left"><strong>Service</strong></td>
+<td align="left"><code>v1</code></td>
+<td align="left">&#x8CA0;&#x8CAC;&#x7DB2;&#x8DEF;&#x5C0D;&#x5916;&#x6216;&#x5167;&#x90E8;&#x7684;&#x670D;&#x52D9;</td>
+</tr>
+<tr>
+<td align="left"><strong>ConfigMap</strong></td>
+<td align="left"><code>v1</code></td>
+<td align="left">&#x5132;&#x5B58;&#x8A2D;&#x5B9A;&#x6A94;&#x8CC7;&#x6599;</td>
+</tr>
+<tr>
+<td align="left"><strong>Secret</strong></td>
+<td align="left"><code>v1</code></td>
+<td align="left">&#x5132;&#x5B58;&#x654F;&#x611F;&#x8CC7;&#x6599;</td>
+</tr>
+<tr>
+<td align="left"><strong>Namespace</strong></td>
+<td align="left"><code>v1</code></td>
+<td align="left">&#x9694;&#x96E2;&#x8CC7;&#x6E90;&#x4F7F;&#x7528;</td>
+</tr>
+<tr>
+<td align="left"><strong>PersistentVolume (PV)</strong></td>
+<td align="left"><code>v1</code></td>
+<td align="left">&#x5132;&#x5B58; Volume &#x672C;&#x8EAB;&#x7684;&#x8A2D;&#x5B9A;</td>
+</tr>
+<tr>
+<td align="left"><strong>PersistentVolumeClaim (PVC)</strong></td>
+<td align="left"><code>v1</code></td>
+<td align="left">&#x7533;&#x8ACB; Volume &#x4F7F;&#x7528;</td>
+</tr>
+</tbody></table>
+</div></div><div class="h2-section"><h2 id="Workload-Management-Resources"><a href="#Workload-Management-Resources" class="headerlink" title="Workload Management Resources"></a>Workload Management Resources</h2><div class="body"><table>
+<thead>
+<tr>
+<th align="left">&#x8CC7;&#x6E90; (Kind)</th>
+<th align="left">apiVersion</th>
+<th align="left">&#x8AAA;&#x660E;</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Deployment</strong></td>
+<td align="left"><code>apps/v1</code></td>
+<td align="left">&#x7BA1;&#x7406;&#x591A;&#x500B; Pod &#x7684;&#x6EFE;&#x52D5;&#x5347;&#x7D1A;/&#x964D;&#x7D1A;</td>
+</tr>
+<tr>
+<td align="left"><strong>ReplicaSet</strong></td>
+<td align="left"><code>apps/v1</code></td>
+<td align="left">&#x63A7;&#x5236; Pod &#x8907;&#x88FD;&#x6578;&#x91CF;&#xFF0C;&#x901A;&#x5E38;&#x88AB; Deployment &#x7BA1;</td>
+</tr>
+<tr>
+<td align="left"><strong>StatefulSet</strong></td>
+<td align="left"><code>apps/v1</code></td>
+<td align="left">&#x6709;&#x9806;&#x5E8F;&#x6027;&#x3001;&#x6301;&#x4E45;&#x6027;&#x7684;&#x591A; Pod &#x7BA1;&#x7406;&#xFF08;&#x4F8B;&#x5982;&#x8CC7;&#x6599;&#x5EAB;&#xFF09;</td>
+</tr>
+<tr>
+<td align="left"><strong>DaemonSet</strong></td>
+<td align="left"><code>apps/v1</code></td>
+<td align="left">&#x6BCF;&#x53F0;&#x6A5F;&#x5668;&#x8DD1;&#x4E00;&#x4EFD; Pod&#xFF0C;&#x4F8B;&#x5982;&#x76E3;&#x63A7; agent</td>
+</tr>
+</tbody></table>
+</div></div><div class="h2-section"><h2 id="Batch-Processing-Resources"><a href="#Batch-Processing-Resources" class="headerlink" title="Batch Processing Resources"></a>Batch Processing Resources</h2><div class="body"><table>
+<thead>
+<tr>
+<th align="left">&#x8CC7;&#x6E90; (Kind)</th>
+<th align="left">apiVersion</th>
+<th align="left">&#x8AAA;&#x660E;</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Job</strong></td>
+<td align="left"><code>batch/v1</code></td>
+<td align="left">&#x4E00;&#x6B21;&#x6027;&#x4EFB;&#x52D9;&#xFF0C;&#x8DD1;&#x5B8C;&#x5373;&#x7D50;&#x675F;</td>
+</tr>
+<tr>
+<td align="left"><strong>CronJob</strong></td>
+<td align="left"><code>batch/v1</code></td>
+<td align="left">&#x5B9A;&#x6642;&#x6392;&#x7A0B;&#x8DD1;&#x7684; Job</td>
+</tr>
+</tbody></table>
+</div></div><div class="h2-section"><h2 id="Networking-and-Access-Control-Resources"><a href="#Networking-and-Access-Control-Resources" class="headerlink" title="Networking and Access Control Resources"></a>Networking and Access Control Resources</h2><div class="body"><table>
+<thead>
+<tr>
+<th align="left">&#x8CC7;&#x6E90; (Kind)</th>
+<th align="left">apiVersion</th>
+<th align="left">&#x8AAA;&#x660E;</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Ingress</strong></td>
+<td align="left"><code>networking.k8s.io/v1</code></td>
+<td align="left">&#x63A7;&#x5236; HTTP(S) &#x9032;&#x4F86;&#x7684;&#x8DEF;&#x7531;</td>
+</tr>
+<tr>
+<td align="left"><strong>Role / RoleBinding</strong></td>
+<td align="left"><code>rbac.authorization.k8s.io/v1</code></td>
+<td align="left">&#x6B0A;&#x9650;&#x7BA1;&#x7406; (RBAC)</td>
+</tr>
+<tr>
+<td align="left"><strong>ClusterRole / ClusterRoleBinding</strong></td>
+<td align="left"><code>rbac.authorization.k8s.io/v1</code></td>
+<td align="left">&#x5168;&#x57DF;&#x6B0A;&#x9650;&#x7BA1;&#x7406;</td>
+</tr>
+</tbody></table>
+</div></div></div></div>
+    </main>
+  </div>
+
+  <div class="pre-footer" data-js-no-preview><i class="icon"></i></div>
+</article>
+
+
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/plugins/autoloader/prism-autoloader.min.js"></script>
+<script>
+  (function () {
+    Prism.highlightAll();
+  })();
+</script>
+</section>
+      </div>
+    </div>                
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>
