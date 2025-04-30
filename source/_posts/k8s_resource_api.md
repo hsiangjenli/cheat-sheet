@@ -8,7 +8,7 @@ version: ChatGPT
 
 # Kubernetes Resource and apiVersion
 
-## Core Kubernetes Resources
+### Core Kubernetes Resources
 
 | 資源 (Kind)        | apiVersion          | 說明 |
 |:------------------|:---------------------|:-----|
@@ -20,7 +20,7 @@ version: ChatGPT
 | **PersistentVolume (PV)** | `v1`           | 儲存 Volume 本身的設定 |
 | **PersistentVolumeClaim (PVC)** | `v1`    | 申請 Volume 使用 |
 
-## Workload Management Resources
+### Workload Management Resources
 
 | 資源 (Kind)        | apiVersion          | 說明 |
 |:------------------|:---------------------|:-----|
@@ -29,14 +29,14 @@ version: ChatGPT
 | **StatefulSet**    | `apps/v1`             | 有順序性、持久性的多 Pod 管理（例如資料庫） |
 | **DaemonSet**      | `apps/v1`             | 每台機器跑一份 Pod，例如監控 agent |
 
-## Batch Processing Resources
+### Batch Processing Resources
 
 | 資源 (Kind)        | apiVersion          | 說明 |
 |:------------------|:---------------------|:-----|
 | **Job**            | `batch/v1`            | 一次性任務，跑完即結束 |
 | **CronJob**        | `batch/v1`            | 定時排程跑的 Job |
 
-## Networking and Access Control Resources
+### Networking and Access Control Resources
 
 | 資源 (Kind)        | apiVersion          | 說明 |
 |:------------------|:---------------------|:-----|
