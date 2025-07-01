@@ -1,14 +1,14 @@
 ---
 title: 軟體工程
-date: 2025-05-11
+date: 2025-07-01
 tags: 
 categories: programming
-version: 0.1
+version: 0.2
 ---
 
 # 專案管理
 
-## 需求管理結構
+### 需求管理結構
 
 | 層級名稱     | 說明                           | 常見術語                      |
 | ------------ | ------------------------------ | ----------------------------- |
@@ -18,7 +18,7 @@ version: 0.1
 | 驗收標準層   | 定義功能完成的標準和驗收條件   | Acceptance Criteria           |
 | 測試規格層   | 詳細描述驗收測試的條件和方法   | Acceptance Test Specification |
 
-### 專案管理層級表（由大至小）
+#### 專案管理層級表（由大至小）
 
 | 層級名稱                     | 定義與用途                                                          | 範例或說明                                                                                 |
 | ---------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -86,3 +86,14 @@ As a {role}, I want {function} so that {business value}.
 1. Given（前置條件）
 1. When（觸發事件）
 1. Then（預期結果）
+
+# AI Assistant Rules
+
+## Tools
+1. [10xRules.ai](https://10xrules.ai/)
+
+## GitHub Repo
+1. [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/tree/main)
+1. [dyoshikawa / rulesync](https://github.com/dyoshikawa/rulesync)
+1. [botingw / rulebook-ai](https://github.com/botingw/rulebook-ai)
+1. [wiz-sec-public / secure-rules-files](https://github.com/wiz-sec-public/secure-rules-files)
