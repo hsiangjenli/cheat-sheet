@@ -1,6 +1,6 @@
 ---
 title: Programming Cheat Sheet
-date: 2024-02-02
+date: 2025-08-27
 tags: programming
 categories: programming
 collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
@@ -85,6 +85,10 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. [Solution for docker: invalid reference format: repository name must be lowercase](https://forum.codewithmosh.com/t/solution-for-docker-invalid-reference-format-repository-name-must-be-lowercase/10630)
 1. [when using docker compose 3.8 getting 'version is unsupported' error](https://stackoverflow.com/questions/61344927/when-using-docker-compose-3-8-getting-version-is-unsupported-error)
 
+## Moby
+
+1. [The Moby Project](https://github.com/moby/moby/tree/master)
+
 # Python
 
 <!-- ========================================================== -->
@@ -132,6 +136,18 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 ##### Pipeline
 1. [Data PIPELINE - Orchest](https://orchest.readthedocs.io/en/stable/#)
 1. [airflow使用指南-机器学习工程自动化](https://blog.csdn.net/weixin_42010722/article/details/121453151)
+
+##### Docker
+> 減少 Image 大小
+
+
+| 參數                              | 解釋                                                  |
+|:--------------------------------- | ----------------------------------------------------- |
+| `PIP_DISABLE_PIP_VERSION_CHECK=1` | 關閉 pip 在執行時檢查「pip 本身是否有新版」的提示     |
+| `PIP_NO_CACHE_DIR=1`              | 讓 pip 安裝套件時不要保留下載的 wheel 或壓縮檔快取    |
+| `PYTHONDONTWRITEBYTECODE=1`       | 讓 Python 不要在執行時生成 `.pyc / __pycache__` 檔案  |
+| `PYTHONUNBUFFERED=1`              | 讓 Python 輸出（stdout/stderr）不經過快取，直接 flush |
+
 
 # Database
 
