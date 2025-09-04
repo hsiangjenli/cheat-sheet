@@ -1,6 +1,6 @@
 ---
 title: UI/UX
-date: 2025-08-19
+date: 2025-09-04
 tags: 
 categories: programming
 version: 0.1
@@ -25,18 +25,20 @@ version: 0.1
 9. [iconoir](https://iconoir.com/) 
 10. [icon shock](https://www.iconshock.com/) 
 11. [inkscape-open-symbols](https://github.com/PanderMusubi/inkscape-open-symbols) 
-12. [Loose Drawing](https://loosedrawing.com/) 
-13. [lucide](https://lucide.dev/icons/) 
-14. [mono icon](https://icons.mono.company/) 
-15. [Noun Project](https://thenounproject.com/) 
-16. [pictogramas](https://github.com/adrianmg/pictogramas) 
-17. [React Icons](https://react-icons.github.io/react-icons/) 
-18. [remixicon](https://remixicon.com/) 
-19. [svg repo](https://www.svgrepo.com/) 
-20. [tabler](https://tabler.io/icons) 
-21. [toicon](https://hans.gerwitz.com/projects/the-artificial/toicon/) 
-22. [unblast](https://unblast.com/icons/isometric/) 
-23. [unDraw](https://undraw.co/illustrations) 
+12. [Isocons](https://www.isocons.app/)
+13. [Loose Drawing](https://loosedrawing.com/) 
+14. [lucide](https://lucide.dev/icons/) 
+15. [mono icon](https://icons.mono.company/) 
+16. [Noun Project](https://thenounproject.com/) 
+17. [pictogramas](https://github.com/adrianmg/pictogramas) 
+18. [React Icons](https://react-icons.github.io/react-icons/) 
+19. [remixicon](https://remixicon.com/) 
+20. [Simple Icon](https://simpleicons.org/)
+21. [svg repo](https://www.svgrepo.com/) 
+22. [tabler](https://tabler.io/icons) 
+23. [toicon](https://hans.gerwitz.com/projects/the-artificial/toicon/) 
+24. [unblast](https://unblast.com/icons/isometric/) 
+25. [unDraw](https://undraw.co/illustrations) 
 
 ## Javascript
 ##### Anime.js
