@@ -1,6 +1,6 @@
 ---
 title: Programming Cheat Sheet
-date: 2024-02-02
+date: 2025-08-27
 tags: programming
 categories: programming
 collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
@@ -10,6 +10,10 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 ## OCW
 1. [Hello 演算法](https://www.hello-algo.com/zh-hant/)
+1. [csdiy.wiki](https://csdiy.wiki/en/)
+1. [RePublic of CS](https://republic-of-cs.gitbook.io/e)
+1. [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+1. [Learn Git Branching](https://learngitbranching.js.org/)
 
 # Software
 
@@ -17,6 +21,7 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 - SDLC（Software Development Life Cycle，軟體開發生命週期）
 
 ## 名詞用法
+- [TechTerms.com](https://techterms.com)
 - [程序代码中，怎么区分status和state？](https://www.zhihu.com/question/21994784)  
 
 |      | State                              | Status                                |
@@ -24,6 +29,9 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 | 定義       | 表示具備明確轉換流程的狀態             | 表示單一、靜態的狀態或屬性                  |
 | 轉換關係   | 狀態之間有明確的遷移關係               | 狀態之間沒有明確的轉換流程                  |
 | 範例       | TCP 狀態（SYN_SENT、ESTABLISHED 等）   | HTTP 狀態碼（200、404 等）、啟用/停用標記   |
+
+## Project Management
+1. [Quire](https://quire.io)
 
 <!-- ========================================================== -->
 ## Meaning of Abbreviations
@@ -46,7 +54,8 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 <!-- ========================================================== -->
 
 ## Linux
-- [FOSS Linux](https://www.fosslinux.com/)
+1. [FOSS Linux](https://www.fosslinux.com/)
+1. [Linux Journey](https://linuxjourney.com/)
 
 ## Docker
 
@@ -76,6 +85,10 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 1. [Solution for docker: invalid reference format: repository name must be lowercase](https://forum.codewithmosh.com/t/solution-for-docker-invalid-reference-format-repository-name-must-be-lowercase/10630)
 1. [when using docker compose 3.8 getting 'version is unsupported' error](https://stackoverflow.com/questions/61344927/when-using-docker-compose-3-8-getting-version-is-unsupported-error)
 
+## Moby
+
+1. [The Moby Project](https://github.com/moby/moby/tree/master)
+
 # Python
 
 <!-- ========================================================== -->
@@ -85,6 +98,7 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 - [Python 寫程式的「底線」：7 種使用技巧](https://haosquare.com/python-underscore/)
 - [Abstract Method - [Python物件導向]Python多型(Polymorphism)實用教學](https://www.learncodewithmike.com/2020/01/python-polymorphism.html)
 - [geoff_spacetime/變數命名慣例](https://www.threads.net/@geoff_spacetime/post/C-WfyS2zcqd?xmt=AQGzzlS9UXNGDnBhZtUt9kdmJB45NOEHuBbKKxqm4pgoDQ)
+- [Python 的檢查及測試工具箱](https://medium.com/pyladies-taiwan/python-的檢查及測試工具箱-eda71af68c19)
 
 ##### State Design Pattern
 1. [The State Design Pattern in Python Explained](https://www.youtube.com/watch?v=5OzLrbk82zY)
@@ -100,6 +114,8 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 
 ##### Documentation
 1. [mkdocstrings/griffe](https://github.com/mkdocstrings/griffefv)
+1. [Mintlify](https://mintlify.com/)
+> Meet the next generation of documentation. AI-native, beautiful out-of-the-box, and built for developers
 1. [Top 6 Tools to Turn Code into Beautiful Diagrams](https://youtu.be/jCd6XfWLZsg?si=B4BemSK_x2dlCOhc)
 1. [Diagrams as Code](https://diagrams.mingrammer.com/)
 
@@ -120,6 +136,18 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 ##### Pipeline
 1. [Data PIPELINE - Orchest](https://orchest.readthedocs.io/en/stable/#)
 1. [airflow使用指南-机器学习工程自动化](https://blog.csdn.net/weixin_42010722/article/details/121453151)
+
+##### Docker
+> 減少 Image 大小
+
+
+| 參數                              | 解釋                                                  |
+|:--------------------------------- | ----------------------------------------------------- |
+| `PIP_DISABLE_PIP_VERSION_CHECK=1` | 關閉 pip 在執行時檢查「pip 本身是否有新版」的提示     |
+| `PIP_NO_CACHE_DIR=1`              | 讓 pip 安裝套件時不要保留下載的 wheel 或壓縮檔快取    |
+| `PYTHONDONTWRITEBYTECODE=1`       | 讓 Python 不要在執行時生成 `.pyc / __pycache__` 檔案  |
+| `PYTHONUNBUFFERED=1`              | 讓 Python 輸出（stdout/stderr）不經過快取，直接 flush |
+
 
 # Database
 
@@ -216,6 +244,8 @@ collaborate: https://hackmd.io/5nNUgUfYQRGQRtJH7Jyozw
 6. [requarks/changelog-action](https://github.com/requarks/changelog-action)
 7. [🔄 全面掌握 Git 撤銷：詳細解析在 4 種不同層級下的操作方式](https://blog.o-w-o.cc/archives/git-revert-tutorial)
 8. [Igouist/hello-git](https://github.com/Igouist/hello-git)
+9. [開發 Git 的人所推薦的 .gitconfig 設定](https://blog.gslin.org/archives/2025/02/27/12274/開發-git-的人所推薦的-gitconfig-設定/)
+10. [偉大的 Git commit message rules](https://hackmd.io/@howhow/git_commit)
 
 ## Commit message 
 1. [pre-commit](https://pre-commit.com/)
@@ -271,12 +301,17 @@ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch a.txt
 
 # Web
 
-## Icon
-- [fontawesome](https://fontawesome.com/icons)
-
-## Vector Image
-- [unDraw](https://undraw.co/illustrations)
-
 ## API
 - [API Parrot](https://apiparrot.com/)
+- https://levelup.gitconnected.com/api-design-101-from-basics-to-best-practices-a0261cdf8886
+- [在 FastAPI Routes 以外無痛複用 Depends 的方法](https://j-sui.com/2024/10/26/use-fastapi-depends-outside-fastapi-routes/)
 
+# Open Source
+
+## Alternative
+1. [OpenAlternative](https://openalternative.co)
+1. [Collecting the Best Free AI APIs for You](https://freeaihunter.com)
+1. [Githunt](https://kamranahmed.info/githunt)
+
+## Mentorship
+1. [給薪的遠端開源實習大比拼：GSoC vs Outreachy](https://hackmd.io/@9ukei/r1YtFu2vi)
